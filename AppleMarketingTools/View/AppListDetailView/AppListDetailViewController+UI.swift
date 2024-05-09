@@ -23,7 +23,8 @@ extension AppListDetailViewController {
                                      artistNameLbl.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 0.0),
                                      artistNameLbl.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: 0.0),
                                      artistNameLbl.heightAnchor.constraint(equalToConstant: 20.0),
-                                     releaseDataLbl.topAnchor.constraint(equalTo: artistNameLbl.bottomAnchor, constant: 0.0),
+                                     
+                                     releaseDataLbl.topAnchor.constraint(equalTo: artistNameLbl.bottomAnchor, constant: 10.0),
                                      releaseDataLbl.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 0.0),
                                      releaseDataLbl.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: 0.0),
                                      releaseDataLbl.heightAnchor.constraint(equalToConstant: 18.0)
