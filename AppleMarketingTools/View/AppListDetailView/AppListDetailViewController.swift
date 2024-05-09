@@ -16,6 +16,7 @@ class AppListDetailViewController: UIViewController, CoordinatorBoard {
         let label = UILabel()
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.textAlignment = .center
         return label
     }()
     
@@ -23,6 +24,7 @@ class AppListDetailViewController: UIViewController, CoordinatorBoard {
         let label = UILabel()
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.textAlignment = .center
         return label
     }()
     
